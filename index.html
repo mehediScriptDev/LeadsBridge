@@ -41,12 +41,17 @@
         border-right: 4px solid black;
         border-bottom: 4px solid black;
       }
+      .customBtn2 {
+        border-right: 4px solid white;
+        border-bottom: 4px solid white;
+      }
     </style>
   </head>
 
   <body>
     <main>
-      <section class="lg:min-h-screen bg-gradient-to-b from-white to-[#FFEAC3]">
+      <!-- navbar and hero section -->
+      <section class="bg-gradient-to-b from-white to-[#FFEAC3]">
         <!-- navbar -->
         <div class="navbar container mx-auto flex justify-between items-center">
           <div class="navbar-start">
@@ -84,28 +89,311 @@
           </div>
         </div>
         <!-- hero -->
-        <div class=" relative w-11/12 py-10 sm:py-20 lg:py-28 mx-auto flex flex-col items-center justify-center gap-4">
-          <div class=" z-40 flex items-center justify-center gap-2">
+        <div
+          class="relative w-11/12 py-10 sm:py-20 lg:py-30 mx-auto flex flex-col items-center justify-center gap-4"
+        >
+          <div class="z-40 flex items-center justify-center gap-2">
             <img class="w-10 h-auto" src="/images/aBadge.png" alt="badge" />
-            <p class="text-base">Your Full-Service <span class="primary">Amazon Partner</span></p>
+            <p class="text-base">
+              Your Full-Service <span class="primary">Amazon Partner</span>
+            </p>
           </div>
-          <h1 class="text-4xl sm:text-[45px] md:text-[55px] lg:text-[65px] xl:text-[70px] z-40 mt-4 leading-tight font-semibold text-center">Turn Your Amazon Struggles <br class="hidden xl:block"> into Success—Save Time,<br> <span class="primary">Maximize Profits!</span></h1>
+          <h1
+            class="text-4xl sm:text-[45px] md:text-[55px] lg:text-[65px] xl:text-[70px] z-40 mt-4 leading-tight font-semibold text-center"
+          >
+            Turn Your Amazon Struggles <br class="hidden xl:block" />
+            into Success—Save Time,<br />
+            <span class="primary">Maximize Profits!</span>
+          </h1>
           <div class="mt-5 lg:mt-8 z-40">
+            <a
+              class="btn px-3 lg:px-6 btn-md lg:btn-lg customBtn rounded-full font-medium text-xs lg:text-sm text-white bg-[#FFA500]"
+              >Book a Free Consultation</a
+            >
+          </div>
+
+          <!-- absolute cards -->
+          <div class="absolute lg:top-1/2 bottom-0 right-0 z-0">
+            <img
+              class="w-40 md:w-60 lg:w-auto"
+              src="/images/review.png"
+              alt="review"
+            />
+          </div>
+          <div class="absolute bottom-0 lg:top-1/2 left-0 z-0">
+            <img
+              class="w-40 md:w-60 lg:w-auto"
+              src="/images/totalContainer.png"
+              alt="total"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- statistics section -->
+      <section class="w-11/12 mx-auto py-10 lg:py-[60px]">
+        <div>
+          <h1 class="text-xl font-semibold text-center lg:text-2xl">
+            Amazon Market Statistics Worldwide 2024
+          </h1>
+        </div>
+        <div
+          class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 lg:gap-6 mt-8"
+        >
+          <div
+            class="border border-[#ECECEC] rounded-2xl space-y-3 p-8 flex flex-col items-center justify-center"
+          >
+            <h1 class="text-3xl lg:text-4xl font-semibold">600 million</h1>
+            <p class="text-[#4F4D4D] text-base lg:text-lg">
+              Amazon Offers Over Products
+            </p>
+          </div>
+          <div
+            class="border border-[#ECECEC] rounded-2xl space-y-3 p-8 flex flex-col items-center justify-center"
+          >
+            <h1 class="text-3xl lg:text-4xl font-semibold">$638.0 billion</h1>
+            <p class="text-[#4F4D4D] text-base lg:text-lg">
+              Amazon Global Net Sales Revenue
+            </p>
+          </div>
+          <div
+            class="border border-[#ECECEC] rounded-2xl space-y-3 p-8 flex flex-col items-center justify-center"
+          >
+            <h1 class="text-3xl lg:text-4xl font-semibold">11.95 million</h1>
+            <p class="text-[#4F4D4D] text-base lg:text-lg">
+              Amazon Handles Orders Daily.
+            </p>
+          </div>
+          <div
+            class="border border-[#ECECEC] rounded-2xl space-y-3 p-8 flex flex-col items-center justify-center"
+          >
+            <h1 class="text-3xl lg:text-4xl font-semibold">$1.6 billion</h1>
+            <p class="text-[#4F4D4D] text-base lg:text-lg">
+              Amazon Average Daily Sales Revenue
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- out story section -->
+      <section class="max-w-3xl mx-auto py-10 w-11/12">
+        <div class="flex flex-col justify-center items-center">
+          <div class="flex items-center justify-center gap-2 mb-4">
+            <img class="w-10 h-auto" src="/images/aBadge.png" alt="badge" />
+            <p class="text-base">Our <span class="primary">Story</span></p>
+          </div>
+          <div class="flex flex-col items-center justify-center">
+            <h1 class="text-3xl lg:text-4xl mb-4 text-center font-semibold">
+              Struggling With Amazon Sales? Let’s Scale Your Business—<span
+                class="primary"
+                >Faster, Smarter,</span
+              >
+              & Stress-Free!
+            </h1>
+            <p
+              class="text-base lg:text-lg text-[#4F4D4D] mb-6 lg:mb-10 text-center"
+            >
+              Amazon is complex, but success doesn’t have to be. At
+              <span class="primary">FINTRIXX</span>, we help sellers increase
+              sales, optimize ads, rank higher, and expand into new markets
+              —without wasting time or money. 🎯 Let’s turn your struggles into
+              scalable success!
+            </p>
+            <div>
               <a
                 class="btn px-3 lg:px-6 btn-md lg:btn-lg customBtn rounded-full font-medium text-xs lg:text-sm text-white bg-[#FFA500]"
+                >Book a Free Strategy Call</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- why us section -->
+      <section class="bg-[#151515] py-10 lg:py-20">
+        <div class="w-11/12 mx-auto">
+          <div
+            class="flex flex-col gap-5 lg:flex-row lg:justify-between items-center"
+          >
+            <div class="max-w-xl">
+              <div class="flex items-center justify-start gap-2 mb-4">
+                <img class="w-10 h-auto" src="/images/aBadge.png" alt="badge" />
+                <p class="text-base text-white">
+                  Why <span class="primary">Choose Us</span>
+                </p>
+              </div>
+              <div class="flex flex-col items-start justify-center">
+                <h1
+                  class="text-3xl text-white lg:text-4xl xl:text-5xl mb-4 font-semibold"
+                >
+                  Why Choose <span class="primary">FINTRIXX?</span>
+                </h1>
+                <p class="text-base lg:text-lg text-white mb-6 lg:mb-10">
+                  Amazon is tough—we make it easy. At FINTRIXX, we help sellers
+                  rank higher, scale faster, & sell smarter. We analyze trends,
+                  optimize ads, manage inventory, & protect your account so you
+                  can focus on your business. 🚀 No more guesswork. No more
+                  wasted money. Just real results.
+                </p>
+                <div>
+                  <a
+                    class="btn px-3 lg:px-6 btn-md lg:btn-lg customBtn2 rounded-full font-medium text-xs lg:text-sm text-white bg-[#FFA500]"
+                    >Book a Free Consultation</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <img src="images/whyUs.png" alt="why us" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- our services -->
+      <section class="w-11/12 mx-auto py-10 lg:py-20">
+        <div>
+          <div class="flex items-center justify-center gap-2 mb-3">
+            <img class="w-10 h-auto" src="/images/aBadge.png" alt="badge" />
+            <p class="text-base">Our <span class="primary">Story</span></p>
+          </div>
+          <div class="flex flex-col items-center justify-center">
+            <h1
+              class="text-3xl text-center lg:text-4xl xl:text-5xl mb-4 font-semibold"
+            >
+              Scale Smarter, <span class="primary">Sell Faster</span>
+            </h1>
+            <p class="text-base text-[#151515] lg:text-lg mb-6 lg:mb-10">
+              We handle everything Amazon so you can focus on growing.
+            </p>
+          </div>
+
+          <div class="grid md:grid-cols-2 gap-3 lg:gap-6">
+            <div class="border border-[#ECECEC] rounded-xl p-8">
+              <div class="flex items-start justify-between">
+                <div>
+                  <h1 class="text-lg mb-2.5">Amazon Growth & Advertising</h1>
+                  <img src="images/line.png" alt="line" />
+                </div>
+                <div>
+                  <img src="images/plane.png" alt="plane" />
+                </div>
+              </div>
+              <div>
+                <p class="text-xs sm:text-sm lg:text-base text-[#4F4D4D]">
+                  <i class="fa-regular fa-circle-check primary mr-2"></i>Bid &
+                  Budget Optimization – Higher ROI, lower ACOS.
+                </p>
+                <p class="text-xs sm:text-sm lg:text-base text-[#4F4D4D]">
+                  <i class="fa-regular fa-circle-check primary mr-2"></i>Monthly
+                  PPC Strategy – Tailored for long-term growth.
+                </p>
+              </div>
+            </div>
+
+            <div class="border border-[#ECECEC] rounded-xl p-8">
+              <div class="flex items-start justify-between">
+                <div>
+                  <h1 class="text-lg mb-2.5">SEO & Product Ranking</h1>
+                  <img src="images/line.png" alt="line" />
+                </div>
+                <div>
+                  <img src="images/cart.png" alt="plane" />
+                </div>
+              </div>
+              <div>
+                <p class="text-xs sm:text-sm lg:text-base text-[#4F4D4D]">
+                  <i class="fa-regular fa-circle-check primary mr-2"></i>Organic
+                  & Sponsored Ranking – More visibility, more sales
+                </p>
+                <p class="text-xs sm:text-sm lg:text-base text-[#4F4D4D]">
+                  <i class="fa-regular fa-circle-check primary mr-2"></i>Keyword
+                  & Competitor Analysis – Stay ahead of the competition.
+                </p>
+              </div>
+            </div>
+
+            <div class="border border-[#ECECEC] rounded-xl p-8">
+              <div class="flex items-start justify-between">
+                <div>
+                  <h1 class="text-lg mb-2.5">Inventory & Account Management</h1>
+                  <img src="images/line.png" alt="line" />
+                </div>
+                <div>
+                  <img src="images/box.png" alt="plane" />
+                </div>
+              </div>
+              <div>
+                <p class="text-xs sm:text-sm lg:text-base text-[#4F4D4D]">
+                  <i class="fa-regular fa-circle-check primary mr-2"></i
+                  >Inventory Forecasting & Restocking – No stockouts, no
+                  overstocking.
+                </p>
+                <p class="text-xs sm:text-sm lg:text-base text-[#4F4D4D]">
+                  <i class="fa-regular fa-circle-check primary mr-2"></i>Amazon
+                  Account Health & Compliance – Avoid suspensions & violations.
+                </p>
+              </div>
+            </div>
+
+            <div class="border border-[#ECECEC] rounded-xl p-8">
+              <div class="flex items-start justify-between">
+                <div>
+                  <h1 class="text-lg mb-2.5">Scaling & Expansion</h1>
+                  <img src="images/line.png" alt="line" />
+                </div>
+                <div>
+                  <img src="images/earth.png" alt="plane" />
+                </div>
+              </div>
+              <div>
+                <p class="text-xs sm:text-sm lg:text-base text-[#4F4D4D]">
+                  <i class="fa-regular fa-circle-check primary mr-2"></i
+                  >Launching New Products – Market research-backed success.
+                </p>
+                <p class="text-xs sm:text-sm lg:text-base text-[#4F4D4D]">
+                  <i class="fa-regular fa-circle-check primary mr-2"></i
+                  >International Expansion – Sell beyond borders with ease.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- our approach -->
+      <section class="bg-[#151515] py-10 lg:py-20">
+        <div class="w-11/12 mx-auto grid lg:grid-cols-2 gap-20 items-center">
+          <div>
+            <img src="images/approach.png" alt="approach" />
+          </div>
+          <div>
+            <h1
+              class="text-3xl text-white lg:text-4xl xl:text-5xl mb-12 font-semibold"
+            >
+              Our <span class="primary">Approach</span>
+            </h1>
+            <p class="text-white text-2xl mb-10 border-l-2 pl-5 border-b-2 pb-5 max-w-xs border-[#ECECEC10]">🎯 Mission</p>
+            <div class="border-l-2 pl-5 border-[#ffa500]">
+              <p class="text-white text-2xl mb-4">🌍 Vision</p>
+              <p class="text-lg text-white mb-8">
+                Founded in 1983, SecureWealth was created to address the
+                challenges of traditional banking—long queues, complicated
+                processes, and limited access. We started with a vision to make
+                banking simple, accessible, and convenient for everyone. Today,
+                we proudly serve 7+ million users, helping them manage their
+                finances with ease.
+              </p>
+              <div>
+              <a
+                class="btn px-3 lg:px-6 btn-md lg:btn-lg customBtn2 rounded-full font-medium text-xs lg:text-sm text-white bg-[#FFA500]"
                 >Book a Free Consultation</a
               >
             </div>
-
-            <!-- absolute cards -->
-         <div class="absolute lg:top-1/2 bottom-0 right-0 z-0">
-            <img class="w-40 md:w-60 lg:w-auto" src="/images/review.png" alt="review">
-         </div>
-         <div class="absolute bottom-0 lg:top-1/2 left-0 z-0">
-            <img class="w-40 md:w-60 lg:w-auto" src="/images/totalContainer.png" alt="total">
-         </div>
+            </div>
+            
+          </div>
         </div>
-        
       </section>
     </main>
   </body>
